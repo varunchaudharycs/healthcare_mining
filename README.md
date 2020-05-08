@@ -1,6 +1,6 @@
 # Healthcare Mining
 
-## Medicinal Search Engine
+## Medicinal Search Engine(for details: check Report.pdf)
 
 ### user symptoms -> possible diseases, commonly co-occurring symptoms, relevant discusssion forums
 
