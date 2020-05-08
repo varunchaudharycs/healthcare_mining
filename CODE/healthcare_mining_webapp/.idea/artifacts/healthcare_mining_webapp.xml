@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="healthcare_mining_webapp">
+    <output-path>$PROJECT_DIR$/out/artifacts/healthcare_mining_webapp</output-path>
+    <root id="archive" name="healthcare_mining_webapp.war">
+      <element id="javaee-facet-resources" facet="healthcare_mining_webapp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="healthcare_mining_webapp" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

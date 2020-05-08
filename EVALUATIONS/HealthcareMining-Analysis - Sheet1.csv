@@ -1,0 +1,19 @@
+S. No.,SYMPTOM,DISEASE 1,DISEASE 2,DISEASE 3,DISEASE 4,DISEASE 5
+,,,,,,
+1,chest Pain,Bacterial Pneumonia,coronavirus,Asthma,influenza,common cold
+2,headache,sinusitis,influenza,migraine,medication overuse,tension
+3,drooping eyelid,headache,,,,
+4,wheezing,Asthma,Respiratory Syncytial Virus,Drug Allergy,Aspiration Pneumonia,
+5,weight loss,Endogenous Depression,Anorexia Nervosa,Celiac Disease,Hyperthyroidism,Drug Allergy
+6,abdominal pain,Appendicitis,Diverticulitis,Gas,Diverticulosis,Irritable Bowel Syndrome
+7,leg pain,Blood Clot In The Legs,Lumbar (Low Back) Herniated Disk,Thrombophlebitis,Diabetic Neuropathy,Lumbar Spinal Stenosis
+8,apetite loss,Endogenous Depression,Drug Allergy,Appendicitis,Chronic Kidney Disease,
+9,fever,Bacterial Pneumonia,Coronavirus,Viral Pneumonia,Influenza (Flu) Adults,Strep Throat
+10,nausea,Drug Allergy,Heartburn/GERD,Viral Gastroenteritis,Motion Sickness,Appendicitis
+11,weakness,Low Potassium (Hypokalemia),Lumbar (Low Back) Herniated Disk,Emphysema,Hypothyroidism (Adult),
+12,blindness,Retinal detachment,,,,
+,,,,,,
+,,,,,,
+,DISEASE SOURCE,WebMD,,,,
+,,,,,,
+,SYMPTOM SOURCE,Wikipedia,drugs.com,,,

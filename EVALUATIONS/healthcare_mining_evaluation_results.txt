@@ -1,0 +1,58 @@
+Process of evaluation
+First go to mayo, select a disease at random, manually check the symptoms and enter them as query.
+If the disease appears in top 5, it is a true result.
+
+----------------------------------------------------------------------------------------------------------------------
+Sample results:
+
+1. text: i am a 40 year old man, i am suffering from shortness of breath, wheezing, pain
+good result :
+Asthma:
+shortness of breath, wheezing, pain
+top-1: True
+top-5: True
+
+2. good result :
+earwax-blockage:
+earache dizziness vertigo
+top1: true
+top5:  true
+
+
+3. bad result:
+fetal-alcohol-problem
+symptom: kidney problem/failure, feeling jittery
+top1- true
+This shows the drawback of metamap, it fails to capture that it is related to children and this is not a symptom of the disease mentioned
+
+----------------------------------------------------------------------------------------------------------------------
+
+diseases:
+True:
+1. kidney-stones, inguinal pain, vomitting top5- True
+2. asthma- shortness of breath, wheezing pain, top5- True
+3. earwax-blockage- earache dizziness vertigo, top-5 True
+4. benign-prostatic-hyperplasia- urine problem
+5. heart-attack- cold sweat shortness of breath
+6. malaria- chills- coughing fever- good result	
+7. procitis- diarrhea, good
+8. heart burn- good result
+9. narcolepsy- daytime sleepliness, muscle loss	
+10. nightmare- disorder nightmare sleep disorder
+11. norovirus- muscle pain, stomach pain
+12. scizrophenia- hallucination, sleep disorder
+13. Ocular rosacea- dry eye itchy eye blurred vision (came within top 5)
+
+
+False:
+1. kidney problem, top result: fetal-alcohol-problem, which is not related to 
+2.joint pain muscle weakness, wrist pain did not give "ganglion cyst"
+3. gingivitis wrong Swollen or puffy gums
+4. Nephrotic syndrome: Nephrotic syndrome wrong
+5. Peripheral nerve tumors, soft bump under the skin, wrong
+6. basal cell carccinoma, failed
+7. rabies- difficulty to swallow water, anxiety
+
+
+----------------------------------------------------------------------------------------------------------------------
+Accuracy: 65%  (13/20)

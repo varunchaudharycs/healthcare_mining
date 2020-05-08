@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="healthcare_mining_webapp" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96d4b006-52d9-4c65-b179-13489bf6dcbb" name="Default Changelist" comment="default response added">
+      <change afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/constants/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/GlobalIndexedDocsCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/utils/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/utils/LoggerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/utils/RequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/MayoClinicDataIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/MayoClinicDataIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/PatientInfoDataIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/PatientInfoDataIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/WebMDDrugReviewDataIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/WebMDDrugReviewDataIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/WebMDMessageBoardsDataIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/indexer/WebMDMessageBoardsDataIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/servlets/IndexRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/servlets/IndexRequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/utils/ResponseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/classes/swm/group18/healthcare/utils/ResponseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/crawled_data/drug_search_development_resp.json" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/WEB-INF/crawled_data/drug_search_development_resp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.34/webapps/healthcare_mining/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare_mining_webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare_mining_webapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/MayoClinicDataIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/MayoClinicDataIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/PatientInfoDataIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/PatientInfoDataIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/WebMDDrugReviewDataIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/WebMDDrugReviewDataIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/WebMDMessageBoardsDataIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/indexer/WebMDMessageBoardsDataIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swm/group18/healthcare/servlets/IndexRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/servlets/IndexRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swm/group18/healthcare/utils/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swm/group18/healthcare/utils/ResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/crawled_data/drug_search_development_resp.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/crawled_data/drug_search_development_resp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../solr_server/REDAME.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../solr_server/REDAME.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1aKykXKUL16JokHR8NXxseXDDmS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.305" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/web/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/healthcare_mining/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="healthcare_mining_webapp">
+          <settings>
+            <option name="CONTEXT_PATH" value="/healthcare_mining" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_healthcare_mining_webapp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54699" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="healthcare_mining_webapp" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96d4b006-52d9-4c65-b179-13489bf6dcbb" name="Default Changelist" comment="" />
+      <created>1586498723992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586498723992</updated>
+      <workItem from="1586498725298" duration="10304000" />
+      <workItem from="1587003367266" duration="161000" />
+      <workItem from="1587003531309" duration="387000" />
+      <workItem from="1587003922285" duration="1709000" />
+      <workItem from="1587248020221" duration="879000" />
+      <workItem from="1587274936482" duration="18000" />
+      <workItem from="1587274964309" duration="1192000" />
+      <workItem from="1587321508129" duration="2842000" />
+      <workItem from="1587801674357" duration="8850000" />
+      <workItem from="1587935410720" duration="818000" />
+      <workItem from="1587966946146" duration="6162000" />
+      <workItem from="1587978520942" duration="15827000" />
+    </task>
+    <task id="LOCAL-00001" summary="data folder file tracking disabled due to large file unwanted checkin">
+      <created>1587003972350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587003972350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="default response added for client side development">
+      <created>1587005100720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587005100720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added - Anik's changes for search result rendering">
+      <created>1587978678050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587978678050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="unwanted class files removed from repository">
+      <created>1588044193633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588044193633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="data folder file tracking disabled due to large file unwanted checkin" />
+    <MESSAGE value="default response added for client side development" />
+    <MESSAGE value="Added - Anik's changes for search result rendering" />
+    <MESSAGE value="unwanted class files removed from repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="unwanted class files removed from repository" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="319" y="126" key="#Project_Structure" timestamp="1586498851291">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="126" key="#Project_Structure/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1586498851291" />
+    <state x="1685" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587274969888">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1586498853364" />
+    <state x="1685" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1587274969888" />
+    <state x="2165" y="363" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587003816880">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2165" y="363" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1587003816880" />
+    <state x="1915" y="156" key="CommitChangelistDialog2" timestamp="1588044193417">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="327" y="105" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587978677574" />
+    <state x="1915" y="156" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044193417" />
+    <state width="1294" height="273" key="GridCell.Tab.0.bottom" timestamp="1588044998048">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157594" />
+    <state width="1294" height="273" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998048" />
+    <state width="1294" height="273" key="GridCell.Tab.0.center" timestamp="1588044998047">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157593" />
+    <state width="1294" height="273" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998047" />
+    <state width="1294" height="273" key="GridCell.Tab.0.left" timestamp="1588044998047">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157592" />
+    <state width="1294" height="273" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998047" />
+    <state width="1294" height="273" key="GridCell.Tab.0.right" timestamp="1588044998047">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157594" />
+    <state width="1294" height="273" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998047" />
+    <state width="1294" height="273" key="GridCell.Tab.1.bottom" timestamp="1588044998048">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157596" />
+    <state width="1294" height="273" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998048" />
+    <state width="1294" height="273" key="GridCell.Tab.1.center" timestamp="1588044998048">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157595" />
+    <state width="1294" height="273" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998048" />
+    <state width="1294" height="273" key="GridCell.Tab.1.left" timestamp="1588044998048">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157595" />
+    <state width="1294" height="273" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998048" />
+    <state width="1294" height="273" key="GridCell.Tab.1.right" timestamp="1588044998048">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157596" />
+    <state width="1294" height="273" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998048" />
+    <state width="1294" height="273" key="GridCell.Tab.2.bottom" timestamp="1588044998049">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.2.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157597" />
+    <state width="1294" height="273" key="GridCell.Tab.2.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998049" />
+    <state width="1294" height="273" key="GridCell.Tab.2.center" timestamp="1588044998049">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.2.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157596" />
+    <state width="1294" height="273" key="GridCell.Tab.2.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998049" />
+    <state width="1294" height="273" key="GridCell.Tab.2.left" timestamp="1588044998049">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.2.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157596" />
+    <state width="1294" height="273" key="GridCell.Tab.2.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998049" />
+    <state width="1294" height="273" key="GridCell.Tab.2.right" timestamp="1588044998049">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.2.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1588005157597" />
+    <state width="1294" height="273" key="GridCell.Tab.2.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044998049" />
+    <state width="1294" height="273" key="GridCell.Tab.3.bottom" timestamp="1588042516351">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.3.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587986386658" />
+    <state width="1294" height="273" key="GridCell.Tab.3.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588042516351" />
+    <state width="1294" height="273" key="GridCell.Tab.3.center" timestamp="1588042516350">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.3.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587986386657" />
+    <state width="1294" height="273" key="GridCell.Tab.3.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588042516350" />
+    <state width="1294" height="273" key="GridCell.Tab.3.left" timestamp="1588042516350">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.3.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587986386657" />
+    <state width="1294" height="273" key="GridCell.Tab.3.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588042516350" />
+    <state width="1294" height="273" key="GridCell.Tab.3.right" timestamp="1588042516351">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="958" height="273" key="GridCell.Tab.3.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587986386658" />
+    <state width="1294" height="273" key="GridCell.Tab.3.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588042516351" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1587978532602">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587978532602" />
+    <state x="2000" y="293" key="Vcs.Push.Dialog.v2" timestamp="1588044195180">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="420" y="247" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587978680055" />
+    <state x="2000" y="293" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044195180" />
+    <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1587984785131">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="720" height="438" key="XDebugger.FullValuePopup/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587984785131" />
+    <state x="490" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1587966945054">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="490" y="324" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587935420892" />
+    <state x="2093" y="386" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1587321508042" />
+    <state x="490" y="324" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1587966945054" />
+    <state x="2058" y="292" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1588045005969">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2058" y="292" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588045005969" />
+    <state x="2138" y="322" key="extract.method.dialog" timestamp="1587004938424">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2138" y="322" key="extract.method.dialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1587004938424" />
+    <state x="426" y="75" key="refactoring.ChangeSignatureDialog" timestamp="1587974513483">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="426" y="75" key="refactoring.ChangeSignatureDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587974513483" />
+    <state x="2065" y="261" width="670" height="676" key="search.everywhere.popup" timestamp="1588044267582">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="469" y="220" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1587887612245" />
+    <state x="2065" y="261" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588044267582" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/swm/group18/healthcare/servlets/IndexRequestHandler.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/swm/group18/healthcare/indexer/WebMDDrugReviewDataIndexer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

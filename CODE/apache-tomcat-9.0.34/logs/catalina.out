@@ -1,0 +1,85 @@
+09-Apr-2020 21:32:11.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.34
+09-Apr-2020 21:32:11.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 12:02:52 UTC
+09-Apr-2020 21:32:11.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.34.0
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.4
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:32:11.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/conf/logging.properties
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/temp
+09-Apr-2020 21:32:11.935 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hemant/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Apr-2020 21:32:12.200 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:32:12.226 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [473] milliseconds
+09-Apr-2020 21:32:12.249 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2020 21:32:12.249 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.34]
+09-Apr-2020 21:32:12.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/docs]
+09-Apr-2020 21:32:12.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/docs] has finished in [190] ms
+09-Apr-2020 21:32:12.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/manager]
+09-Apr-2020 21:32:12.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/manager] has finished in [23] ms
+09-Apr-2020 21:32:12.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/examples]
+09-Apr-2020 21:32:12.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/examples] has finished in [210] ms
+09-Apr-2020 21:32:12.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/ROOT]
+09-Apr-2020 21:32:12.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/ROOT] has finished in [11] ms
+09-Apr-2020 21:32:12.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/host-manager]
+09-Apr-2020 21:32:12.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/host-manager] has finished in [13] ms
+09-Apr-2020 21:32:12.708 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:32:12.714 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [487] milliseconds
+09-Apr-2020 21:36:29.454 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2020 21:36:29.454 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:36:29.462 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2020 21:36:29.477 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:36:29.478 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:40:36.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.34
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 12:02:52 UTC
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.34.0
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.4
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Apr-2020 21:40:36.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:40:36.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:40:36.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/conf/logging.properties
+09-Apr-2020 21:40:36.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/temp
+09-Apr-2020 21:40:36.200 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hemant/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Apr-2020 21:40:36.472 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:40:36.497 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [468] milliseconds
+09-Apr-2020 21:40:36.520 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2020 21:40:36.520 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.34]
+09-Apr-2020 21:40:36.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/docs]
+09-Apr-2020 21:40:36.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/docs] has finished in [196] ms
+09-Apr-2020 21:40:36.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/manager]
+09-Apr-2020 21:40:36.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/manager] has finished in [25] ms
+09-Apr-2020 21:40:36.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/examples]
+09-Apr-2020 21:40:36.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/examples] has finished in [230] ms
+09-Apr-2020 21:40:36.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/ROOT]
+09-Apr-2020 21:40:36.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/ROOT] has finished in [11] ms
+09-Apr-2020 21:40:36.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/host-manager]
+09-Apr-2020 21:40:37.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/hemant/GithubWorkspace/apache-tomcat-9.0.34/webapps/host-manager] has finished in [12] ms
+09-Apr-2020 21:40:37.006 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:40:37.013 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [515] milliseconds
+09-Apr-2020 21:40:49.205 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+09-Apr-2020 21:42:28.549 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2020 21:42:28.550 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:42:28.558 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2020 21:42:28.571 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 21:42:28.573 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

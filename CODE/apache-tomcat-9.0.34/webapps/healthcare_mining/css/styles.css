@@ -1,0 +1,214 @@
+/*This font file is used to display the search lens*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    background: #f2f2f2;
+}
+
+/* Search box styles: starts */
+
+.search {
+    margin: auto;
+    width: 30%;
+    position: center;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 32px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+    /*color: #9DBFAF;*/
+}
+
+/*text color when search keyword is typed*/
+.searchTerm:focus {
+    color: #444;
+}
+
+.searchButton {
+    width: 64px;
+    height: 48px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+/* Search box style ends */
+
+.search_container {
+    text-align:center;
+}
+
+.search_option {
+    margin-bottom: 20px;
+}
+
+/* Selection box style starts */
+
+/* Reset default select tag styles */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    margin-top: 8px;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50 none;
+}
+
+select {
+    flex: auto;
+    padding: 0 1.5em;
+    color: #f7f7f7;
+    cursor: pointer;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Selection class style */
+.search_selection {
+    position: relative;
+    display: inline-flex;
+    width: 10em;
+    height: 2em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+/* Drawing selection drop-down arrow */
+.search_selection::after {
+    content: '\25BC';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    padding: 0 0.5em;
+    background: #34495e;
+    color: #926010;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+/* Transition of drop-down arrow on hover */
+.search_selection:hover::after {
+    color: #bf7e15;
+}
+
+/* Selection box style starts */
+
+/*
+ * Formatting the header area
+ */
+
+header {
+    background-color: #DFB887;
+    height: 35px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 10px;
+}
+
+header h1.logo {
+    margin: 0;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+}
+
+header h1.logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+ * Centering the body content
+ */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div.home {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+div.about {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 70px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
+}
+
+h4 {
+    margin: 20px;
+}
+
+.menu {
+    float: right;
+    margin-top: 8px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li + li {
+    margin-left: 35px;
+}
+
+.menu li a {
+    color: #444;
+    text-decoration: none;
+}
+
+/*ul.red li b {*/
+/*    background-color:#646464;*/
+/*    !*color: #ff7225;*!*/
+/*    color: red;*/
+/*}*/
+li.red {
+    color: red
+}

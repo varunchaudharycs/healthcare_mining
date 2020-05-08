@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Healthcare Semantic Web Mining</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- JavaScripts -->
+    <!-- Third-party JS frameworks, https://sweetalert.js.org/-->
+    <script src="./js/jquery-3.5.0.min.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
+    <!-- project JS source codes-->
+    <script src="./js/request_handlers.js"></script>
+    <script src="./js/search.js"></script>
+</head>
+<body>
+
+<!--Title just above the search box-->
+<h2>Mininig Healthcare Websites</h2>
+
+<div class="search_container">
+    <div class="search_option">
+        <label for="search_selection">Choose the search option:</label>
+        <div class="search_selection">
+            <select name="search_selection" id="search_selection" onchange="searchOptionChange()">
+                <option value="disease_search">Disease Search</option>
+                <option value="drug_search">Drug Search</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="search">
+
+        <input id="search_box" type="text" name="search_query" class="searchTerm" placeholder="Type the symptoms here..."
+               spellcheck="false">
+        <button id="search_button" type="submit" class="searchButton" onclick="sendSearchRequest()">
+            <!-- uses font awesome search lens-->
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+</div>
+
+<!--related symptom suggestions-->
+<div class="search_container">
+    <label id="related_symptoms"></label>
+</div>
+
+<div class='results'>
+    <div class = 'disease_title'> Possible Diseases </div>
+    <div class = 'posts_title'> Forum Results </div>
+    <div class = 'drug_title'> Drug Results </div>
+</div>
+
+<div class='results'>
+    <div class="response"></div>
+    <div class = "posts"></div>
+    <div class="drug"></div>
+</div>
+
+</body>
+</html>

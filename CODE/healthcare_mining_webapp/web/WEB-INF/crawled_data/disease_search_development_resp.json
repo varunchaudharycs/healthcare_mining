@@ -1,0 +1,108 @@
+{
+  "query": "shortness of breath",
+
+  "annotated_query_terms": {
+    "symptoms" : [
+      "dyspnea"
+    ]
+  },
+
+  "results": {
+    "mayo_clinic": [
+      {
+        "title": "hantavirus-pulmonary-syndrome",
+        "url": "https://www.mayoclinic.org/diseases-conditions/hantavirus-pulmonary-syndrome/symptoms-causes/syc-20351838",
+        "disease" : "hantavirus-pulmonary-syndrome",
+        "symptoms": [
+          "Fever and chills",
+          "Headaches and muscle aches",
+          "A cough that produces secretions",
+          "Shortness of breath",
+          "Fluid accumulating within the lungs",
+          "Low blood pressure",
+          "Reduced heart efficiency"
+        ],
+        "summary": "\"Hantavirus pulmonary syndrome advances through two distinct stages. this may or may not be there, if available it is just like Google search result summary/snippet"
+      },
+      {
+        "title": "shortness of breath",
+        "disease" : "",
+        "url": "https://www.mayoclinic.org/diseases-conditions/amniotic-fluid-embolism/symptoms-causes/syc-20369324",
+        "other_symptoms": [
+          "Chills",
+          "Rapid heart rate or disturbances in the rhythm of the heart rate",
+          "Fetal distress, such as a slow heart rate, or other fetal heart rate abnormalities",
+          "Seizures",
+          "Loss of consciousness"
+        ],
+        "summary": "this may or may not be there, if available it is just like Google search result summary/snippet"
+      }
+    ],
+
+    "web_md_mb": [
+      {
+        "title": "Blood sugar diet",
+        "url": "https://messageboards.webmd.com/health-conditions/f/diabetes/91517/blood-sugar-diet",
+        "disease": "this will be there if we can ascertain disease name from the post, otherwise will be empty string",
+        "other_symptoms": [
+          "abc",
+          "def"
+        ],
+        "treatments": [
+          "abc",
+          "def",
+          "this treatments will be returned only if post contains some, otherwise it will be empty list"
+        ],
+        "summary": "I found out I had T2 diabetes in 2012. I've just started the (Michael Mosley) 8-week blood sugar diet - I discovered it after reading Fixing Dad. For those who don't know about it, it's a low-carb, low calorie program that is based on the Mediterranean diet."
+      },
+      {
+        "title": "Am I at risk of getting diabetes?",
+        "disease": "Diabetes",
+        "url": "https://messageboards.webmd.com/health-conditions/f/diabetes/105280/am-i-at-risk-of-getting-diabetes",
+        "other_symptoms": [
+          "abc",
+          "def"
+        ],
+        "treatments": [
+          "abc",
+          "def",
+          "this treatments will be returned only if post contains some, otherwise it will be empty list"
+        ],
+        "summary": "I'm a 21 year old guy and weigh about 350 pounds, so a little overweight."
+      }
+    ],
+
+    "patient_info": [
+      {
+        "title": "Persistent change in bowel habits and abdominal discomfort.",
+        "disease": "disorder",
+        "url": "https://patient.info/forums/discuss/persistent-change-in-bowel-habits-and-abdominal-discomfort--733001",
+        "other_symptoms": [
+          "abc",
+          "def"
+        ],
+        "treatments": [
+          "abc",
+          "def",
+          "this treatments will be returned only if post contains some, otherwise it will be empty list"
+        ],
+        "summary": "Hi, i'm an 18 year old male. I wish i could keep it shorter than this but i felt the need to mention all this. A couple months."
+      },
+      {
+        "title": "CORONA VIRUS SPRAY",
+        "disease": "disorder",
+        "url": "https://patient.info/forums/discuss/corona-virus-spray-733013",
+        "other_symptoms": [
+          "abc",
+          "def"
+        ],
+        "treatments": [
+          "abc",
+          "def",
+          "this treatments will be returned only if post contains some, otherwise it will be empty list"
+        ],
+        "summary": "Hello A company is Saudi Arabia is using a spray to attempt to disinfect their workers. The workers walk through a tunnel."
+      }
+    ]
+  }
+}
