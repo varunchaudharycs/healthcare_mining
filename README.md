@@ -1,4 +1,10 @@
-# Semantic Web Mining Project - Mining Healthcare Web Sites
+# Healthcare Mining
+
+## Medicinal Search Engine
+
+### user symptoms -> possible diseases, commonly co-occurring symptoms, relevant discusssion forums
+
+### user disease -> useful drugs
 
 Project Directory Structure:
 - ./CODE directory has all the codes of all the components we used for the entire project. Each component has it's own README.MD/txt which describes the steps to setup and run the project.
